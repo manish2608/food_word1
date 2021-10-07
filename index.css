@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: linear-gradient(45deg, limegreen, coral);
+}
+
+h1 {
+    color: deepskyblue;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 20px;
+}
+
+.novbar {
+    display: flex;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+}
+
+.nav {
+    float: left;
+    width: 40%;
+    height: 70px;
+    line-height: 5px;
+    background-color: black;
+    font-style: oblique;
+}
+
+.menu {
+    width: 60%;
+    background-color: black;
+    float: right;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    padding: 0px 44px;
+    margin: 30px 0px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: rgb(119, 64, 78);
+    background-color: rgb(148, 154, 156);
+    box-shadow: 6px 4px rgb(184, 188, 189);
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dp {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    background-color: indianred;
+    width: 50%;
+    height: 40px;
+    border-radius: 70px;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+}
+
+.tb {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    background-color: indianred;
+    width: 50%;
+    height: 40px;
+    border-radius: 70px;
+    font-size: 30px;
+}
+
+.d {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    background-color: indianred;
+    width: 50%;
+    height: 40px;
+    border-radius: 70px;
+    font-size: 30px;
+}
+
+img {
+    margin-top: 30px;
+}
+
+#footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+#footer p {
+    text-align: center;
+    background-color: black;
+}
+
+#footer h3 {
+    text-align: center;
+    background-color: black;
+}

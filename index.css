@@ -2,6 +2,10 @@
     margin: 0px;
 }
 
+body {
+    background-color: linear-gradient(45deg, limegreen, coral);
+}
+
 h1 {
     color: deepskyblue;
     font-size: xx-large;
@@ -9,7 +13,7 @@ h1 {
     padding: 20px 20px;
 }
 
-.novbar {
+.navbar {
     display: flex;
     text-align: center;
     position: sticky;
@@ -94,6 +98,10 @@ p {
 
 img {
     margin-top: 30px;
+}
+
+h5 {
+    text-decoration: none;
 }
 
 #footer {
